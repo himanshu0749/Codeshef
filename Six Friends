@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int T,X,Y;
+	int i;
+	scanf("%d",&T);
+	for(i=0;i<T;i++){
+        scanf("%d%d",&X,&Y);
+        if((X*3)<(Y*2)) printf("%d\n",X*3);
+        else{
+            printf("%d\n",Y*2);
+        }
+	}
+	
+	return 0;
+}
