@@ -1,0 +1,23 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner scnew=new Scanner(System.in);
+		int T=scnew.nextInt();
+		for(int i=0;i<T;i++){
+		    int X=scnew.nextInt();
+		    int finish=X+3;
+		    if(finish<=10){
+		        System.out.println("Yes");
+		    }
+		    else{
+		        System.out.println("No");
+		    }
+		}
+	}
+}
